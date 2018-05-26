@@ -22,8 +22,8 @@ cfgur.init({
     ]
 })
 
-# Don't do this, it is meant to be private to the package
-# print config._config_data
+print "get_all=", cfgur.get_all()
+
 
 print "test   =", cfgur.get("test")
 # This will never exist, but will just return None
