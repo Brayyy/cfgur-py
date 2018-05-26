@@ -1,2 +1,4 @@
 *.pyc
-notes.txt
+notes.txtdist/
+cfgur.egg-info/
+build/
