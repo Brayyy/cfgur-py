@@ -1,5 +1,4 @@
-# from cfgur import cfgur
-import cfgur.cfgur as cfgur
+import cfgur
 
 # Initialize once, pass in config
 cfgur.init({

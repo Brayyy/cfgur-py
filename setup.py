@@ -5,8 +5,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cfgur",
-    version="0.1.1",
-    download_url = 'https://github.com/Brayyy/cfgur-py/tarball/0.1',
+    version="0.1.2",
+    download_url = 'https://github.com/Brayyy/cfgur-py/tarball/0.1.2',
     author = 'Bray Almini',
     author_email = 'bray@coreforge.com',
     description = 'Load environment vars, and command line arguments in a predictable, standardized way',

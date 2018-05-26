@@ -1,4 +1,6 @@
 *.pyc
-notes.txtdist/
+**/*.pyc
+notes.txt
 cfgur.egg-info/
 build/
+dist/
