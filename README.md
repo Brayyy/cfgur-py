@@ -1,5 +1,7 @@
 # cfgur (configure)
 
+_Load environment vars, and command line arguments in a predictable, standardized way._
+
 This package wraps argparse, loading config from environment variables as well as the usual command line arguments / flags. A config object is passed into init(), configuring argparse. The environment variables are implied from the arg name (stripped, uppercased and underscored), but can be manually defined using the key "env_var" in args config. Once args are loaded, config is accessable using a getter function "get()". To get all variables, use get_all(). The args object keys are passed to parser.add_argument().
 
 ### Installation
